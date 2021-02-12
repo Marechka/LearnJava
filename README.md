@@ -1,1 +1,1 @@
-# LeanJava
+# LearnJava
