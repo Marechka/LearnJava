@@ -1,6 +1,6 @@
 // Author: Masha Fitzgerald
 // 02/04/2021
-// Homework #3
+// Homework #3 upload to git
 
 /* Pseudocode
    1. Declair variables: int day, string month, int year
