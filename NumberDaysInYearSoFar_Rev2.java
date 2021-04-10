@@ -140,7 +140,7 @@ public class NumberDaysInYearSoFar_Rev2 {
       }
       
      // Additional day for leap year
-      if ((leapYear == true) && (nMonth >= 3)) {    
+      if ((leapYear) && (nMonth >= 3)) {    
          ++daysSoFar;
       }
       
@@ -148,7 +148,7 @@ public class NumberDaysInYearSoFar_Rev2 {
       daysInYear = daysSoFar + dayOfMonth - 1;
       
      // Printing result with consideration if it's a leap/ non-leap year, singular and plural amount of days
-      if (leapYear == true) {
+      if (leapYear) {
          if (daysInYear == 1) {
             System.out.print( "There is " + daysInYear + " complete day since the beginning of the leap year " + year);
          } else {
